@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class gerenciadordeniveis : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static gerenciadordeniveis main;
+        public Transform startPoint;
+        public Transform[] path; 
+        private void Awake()
     {
-        
+        main = this;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
